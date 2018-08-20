@@ -1,0 +1,11 @@
+spring:
+  application: 
+    name: my-application
+management:
+  info:
+    git:
+      mode: full
+  endpoints:
+    web:
+      exposure:
+        include: "*" 
