@@ -8,4 +8,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: "*" 
+        include: "*"
+store:
+  properties:
+    foo: sta minkia
